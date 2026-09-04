@@ -11,6 +11,7 @@ Native library browsing, system-specific touch controls, and native runtime inte
 - [Controller Mapping](Controller-Mapping.md)
 - [Touch Layouts](Touch-Layouts.md)
 - [Keyboards and Numpads](Keyboards-and-Numpads.md)
+- [PlayStation Xbox and 8BitDo](PlayStation-Xbox-and-8BitDo.md)
 - [Client Family](Client-Family.md)
 - [Compatibility and Testing](Compatibility-and-Testing.md)
 - [Troubleshooting](Troubleshooting.md)
