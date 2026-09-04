@@ -12,8 +12,8 @@
 
 The control guides are source-reviewed snapshots dated **2026-09-03**, not a
 claim of complete controller certification. Published client source and public
-release manifests are still pending. Never treat the PS3 standalone test list
-as the compatibility list of the EmuHub iOS client.
+release manifests are still pending. Only tests on this client count toward
+its compatibility list.
 
 ## Input qualification checklist
 

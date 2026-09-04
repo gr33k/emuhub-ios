@@ -88,7 +88,7 @@ model support and rumble must be qualified on the actual device/OS/profile.
 | L1 / R1 / L2 / R2 | 8 / 9 / 10 / 11 |
 | Start / Select / L3 / R3 | 12 / 13 / 14 / 15 |
 
-Do not reuse these adapter IDs in libretro or the separate ARMSX3 core API.
+Do not reuse these adapter IDs in libretro or an unrelated core API.
 
 ## Pointer and PC-game actions
 

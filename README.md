@@ -4,7 +4,7 @@
 
 Native library browsing, system-specific touch controls, and native runtime integration for EmuHub.
 
-[Read the wiki](https://github.com/gr33k/emuhub-ios/wiki) | [Get started](docs/wiki/Getting-Started.md) | [Control mappings](docs/wiki/Controller-Mapping.md) | [Client family](docs/wiki/Client-Family.md)
+[Read the wiki](https://github.com/gr33k/emuhub-ios/wiki) | [Get started](docs/wiki/Getting-Started.md) | [Control mappings](docs/wiki/Controller-Mapping.md)
 
 ## Built for EmuHub
 
@@ -30,11 +30,9 @@ reviewed documentation and input references. Client source export and independen
 build qualification are in progress; no client binary is published here yet.
 A source mapping is not a claim of perfect controls or universal compatibility.
 
-## EmuHub family
+## EmuHub
 
-[iOS](https://github.com/gr33k/emuhub-ios) | [LG webOS](https://github.com/gr33k/emuhub-webos) | [Fire TV](https://github.com/gr33k/emuhub-firetv)
-
-[Main EmuHub project](https://github.com/gr33k/emuhub) | [Client family and related projects](docs/wiki/Client-Family.md)
+[Main EmuHub project](https://github.com/gr33k/emuhub)
 
 ## Contribute safely
 

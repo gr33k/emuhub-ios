@@ -43,6 +43,18 @@ for (const file of files) {
   assert(!text.includes('\0'), `Binary data in ${file}`);
   for (const pattern of sensitive) assert(!pattern.test(text), `Sensitive-content pattern in ${file}`);
   if (!file.endsWith('.md')) continue;
+  if (file.startsWith('docs/wiki/')) {
+    for (const [id, pattern] of Object.entries({
+      ios: /\b(?:iOS|iPhone|iPad)\b/i,
+      webos: /\bwebOS\b/i,
+      firetv: /\bFire\s*TV\b/i,
+    })) {
+      if (manifest.repository !== `gr33k/emuhub-${id}`) {
+        assert(!pattern.test(text), `Other-client content in ${file}`);
+      }
+    }
+    assert(!/Client-Family|ARMSX3|\{\{[A-Z_]+\}\}/.test(text), `Unscoped wiki content in ${file}`);
+  }
   for (const match of text.matchAll(/\]\(([^)]+)\)/g)) {
     const target = match[1].split('#')[0];
     if (!target || /^https:\/\//.test(target)) continue;
@@ -54,7 +66,7 @@ for (const file of files) {
   }
 }
 for (const required of ['README.md', 'SECURITY.md', 'CONTRIBUTING.md', 'LICENSING.md',
-  'docs/wiki/Home.md', 'docs/wiki/Controller-Mapping.md', 'docs/wiki/Client-Family.md']) {
+  'docs/wiki/Home.md', 'docs/wiki/Controller-Mapping.md']) {
   assert(allowed.has(required), `Missing required page: ${required}`);
 }
 console.log(`PASS ${manifest.repository}: ${files.length} allowlisted text files, ${links} local links, sensitive-pattern checks`);

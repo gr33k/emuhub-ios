@@ -2,7 +2,7 @@
 
 EmuHub iOS is the iPhone/iPad client for an EmuHub server. It provides native
 library browsing, touch controls, and supported native emulator integrations.
-It is not the standalone ARMSX3 app.
+It is not a standalone emulator.
 
 ## Before installation
 

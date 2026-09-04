@@ -43,20 +43,16 @@ swapping every A/B binding.
 These are test targets, not a blanket supported-device list. A successful button
 test on one pad does not certify another model, firmware, transport, or OS.
 
-## Platform differences
+## Input boundary
 
-| Client | Input boundary | Important restriction |
-| --- | --- | --- |
-| EmuHub iOS | Apple GameController profile -> EmuHub bindings -> native adapter | L3/R3 require exposed stick-click elements and an enabled guest profile; Home/PS availability is OS-dependent |
-| EmuHub webOS | TV input / SDL GameController -> native core profile | Use the matching autoconfig; SF30 Pro SDL indices are not universal device indices |
-| EmuHub Fire TV | Android input events -> client shortcuts / active EmuHub player | Select+Start and held L3+R3 are reserved client chords in the inspected implementation |
+Apple GameController profiles feed EmuHub bindings and the native adapter. L3/R3 require exposed stick-click elements and an enabled guest profile. Home/PS availability is OS-dependent.
 
 ## Rumble and advanced controls
 
-Treat phone vibration, ordinary controller rumble, advanced haptics, and adaptive
+Treat device vibration, ordinary controller rumble, advanced haptics, and adaptive
 triggers as separate features. They need a complete guest-to-runtime-to-platform
-path and physical testing. A PS3 standalone rumble result does not prove rumble
-in the EmuHub iOS client, on a TV, or on every Bluetooth controller.
+path and physical testing in this client. A result on one controller does not
+prove rumble support on every Bluetooth controller.
 
 Do not claim touchpad, gyro, paddles, adaptive triggers, or independent accessory
 buttons unless the specific implementation and device test are documented.

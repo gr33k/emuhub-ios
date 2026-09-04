@@ -12,7 +12,6 @@ Native library browsing, system-specific touch controls, and native runtime inte
 - [Touch Layouts](Touch-Layouts.md)
 - [Keyboards and Numpads](Keyboards-and-Numpads.md)
 - [PlayStation Xbox and 8BitDo](PlayStation-Xbox-and-8BitDo.md)
-- [Client Family](Client-Family.md)
 - [Compatibility and Testing](Compatibility-and-Testing.md)
 - [Troubleshooting](Troubleshooting.md)
 
@@ -24,5 +23,4 @@ pending. Mapping tables are source-reviewed, not blanket device certifications.
 [Repository](https://github.com/gr33k/emuhub-ios) | [Report an issue](https://github.com/gr33k/emuhub-ios/issues) | [Security](https://github.com/gr33k/emuhub-ios/security)
 
 Wiki sources live in the repository's `docs/wiki/` directory and should be
-updated through reviewed pull requests. See the [main EmuHub project](https://github.com/gr33k/emuhub)
-and [Client Family](Client-Family.md) for project relationships.
+updated through reviewed pull requests.
