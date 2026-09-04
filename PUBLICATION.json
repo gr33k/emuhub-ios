@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "repository": "gr33k/emuhub-ios",
+  "scope": "emuhub-client-documentation",
+  "sourceReviewedAt": "2026-09-03",
+  "sourceExportComplete": false,
+  "clientBinaryPublished": false,
+  "sourceFingerprints": [
+    {
+      "file": "ControllerManifestCatalog.swift",
+      "sha256": "92e6a8fcf37efdd0430d3ee2abcf0eea121d162bd3196fe0db30729cd318c475"
+    },
+    {
+      "file": "ControllerManager.swift",
+      "sha256": "4534ad15dc9390ebccf0c25baca0841aa78e54056900969993a3b3fce0edde80"
+    },
+    {
+      "file": "IOSNativeRuntime.swift",
+      "sha256": "86568af386b3aeb50eb9a99a4ef83306695ae5bd4ffd90e4d3e02a8df1487a63"
+    },
+    {
+      "file": "IOSPS2Runtime.swift",
+      "sha256": "e73b763bd06e0b0d5f7f1a237115a50f04abbf7c930bfdba7e61a5a7fe07478f"
+    }
+  ],
+  "files": [
+    ".github/ISSUE_TEMPLATE/bug_report.md",
+    ".github/ISSUE_TEMPLATE/config.yml",
+    ".github/ISSUE_TEMPLATE/controller_mapping.md",
+    ".github/workflows/docs.yml",
+    "CONTRIBUTING.md",
+    "LICENSING.md",
+    "README.md",
+    "SECURITY.md",
+    "docs/wiki/Client-Family.md",
+    "docs/wiki/Compatibility-and-Testing.md",
+    "docs/wiki/Controller-Mapping.md",
+    "docs/wiki/Getting-Started.md",
+    "docs/wiki/Home.md",
+    "docs/wiki/Keyboards-and-Numpads.md",
+    "docs/wiki/Touch-Layouts.md",
+    "docs/wiki/Troubleshooting.md",
+    "docs/wiki/_Footer.md",
+    "docs/wiki/_Sidebar.md",
+    "tools/check-docs.mjs"
+  ]
+}

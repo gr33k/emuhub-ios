@@ -1,0 +1,1 @@
+EmuHub iOS client documentation. Source-reviewed does not mean device-qualified. [Security](https://github.com/gr33k/emuhub-ios/security) | [Contribute](https://github.com/gr33k/emuhub-ios/blob/main/CONTRIBUTING.md)
