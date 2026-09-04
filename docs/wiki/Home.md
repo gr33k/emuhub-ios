@@ -24,5 +24,5 @@ pending. Mapping tables are source-reviewed, not blanket device certifications.
 [Repository](https://github.com/gr33k/emuhub-ios) | [Report an issue](https://github.com/gr33k/emuhub-ios/issues) | [Security](https://github.com/gr33k/emuhub-ios/security)
 
 Wiki sources live in the repository's `docs/wiki/` directory and should be
-updated through reviewed pull requests. ARMSX3 and other reusable cores retain
-their own repositories, releases, and branding.
+updated through reviewed pull requests. See the [main EmuHub project](https://github.com/gr33k/emuhub)
+and [Client Family](Client-Family.md) for project relationships.

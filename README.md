@@ -34,9 +34,7 @@ A source mapping is not a claim of perfect controls or universal compatibility.
 
 [iOS](https://github.com/gr33k/emuhub-ios) | [LG webOS](https://github.com/gr33k/emuhub-webos) | [Fire TV](https://github.com/gr33k/emuhub-firetv)
 
-[ARMSX3](https://github.com/gr33k/ARMSX3/tree/ios-core) is an affiliated standalone
-PS3 emulator/core, maintained separately. Its releases are not this client.
-Server/admin implementations and private configuration are not published here.
+[Main EmuHub project](https://github.com/gr33k/emuhub) | [Client family and related projects](docs/wiki/Client-Family.md)
 
 ## Contribute safely
 

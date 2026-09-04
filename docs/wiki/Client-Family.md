@@ -2,6 +2,8 @@
 
 One EmuHub library, purpose-built clients for your devices.
 
+[Main EmuHub project](https://github.com/gr33k/emuhub)
+
 These applications run **EmuHub itself**: connect to your EmuHub server, browse
 its library, use its account and media features, and launch games through the
 client's supported emulator integrations. They are not individual standalone
@@ -18,6 +20,8 @@ emulators, and do not include a game library or firmware collection.
 Client repositories own platform UI, server connection, input, and runtime
 integration. The EmuHub server owns library administration and server services.
 Reusable emulator implementations retain their own repositories and licenses.
+The main server repository is currently private; linking it does not change
+its access or publish its implementation.
 
 [ARMSX3](https://github.com/gr33k/ARMSX3/tree/ios-core) is an affiliated PS3
 emulator/core and standalone app, **not** an EmuHub client. Its standalone
